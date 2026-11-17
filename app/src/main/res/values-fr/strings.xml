@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start_headline">Tout intégrer</string>
+    <string name="start_body">Signatures, écriture manuscrite, zones de texte et champs de formulaire font désormais partie des pages : tout le monde les voit.</string>
+    <string name="start_hint">Ou partagez un PDF vers cette application. Rien ne quitte votre téléphone.</string>
+    <string name="pick">Choisir un PDF</string>
+    <string name="reading">Lecture du document…</string>
+    <string name="progress">Page %1$d sur %2$d</string>
+    <string name="working_headline">Aplatissement…</string>
+    <string name="error_headline">Un problème est survenu</string>
+    <string name="error_memory">Mémoire insuffisante pour traiter ce document.</string>
+    <string name="error_generic">Impossible de traiter ce fichier : %1$s</string>
+    <string name="error_save">Impossible d’enregistrer le fichier</string>
+    <string name="saved">Enregistré</string>
+    <string name="another">Nouveau</string>
+    <string name="original">Original</string>
+    <string name="flattened">Aplati</string>
+    <string name="caption_original">Original, tel que l’affichent les lecteurs qui masquent les calques flottants</string>
+    <string name="caption_flattened">Aplati : ce que tout le monde verra</string>
+    <string name="preview">Aperçu de la page</string>
+    <string name="page">%1$d / %2$d</string>
+    <string name="previous">Page précédente</string>
+    <string name="next">Page suivante</string>
+    <string name="save">Enregistrer</string>
+    <string name="share">Partager</string>
+    <string name="settings">Paramètres</string>
+    <string name="back">Retour</string>
+    <string name="result_nothing">Déjà plat : rien à intégrer</string>
+    <string name="result_kept">conservés tels quels : %1$s</string>
+    <string name="password_title">Mot de passe requis</string>
+    <string name="password_message">Ce PDF est verrouillé. Saisissez son mot de passe pour l’aplatir. La copie aplatie ne sera pas protégée par mot de passe.</string>
+    <string name="password_wrong">Mot de passe incorrect, réessayez.</string>
+    <string name="password_hint">Mot de passe</string>
+    <string name="open">Ouvrir</string>
+    <string name="cancel">Annuler</string>
+    <string name="section_merge">Intégrer dans les pages</string>
+    <string name="section_output">Fichier produit</string>
+    <string name="section_display">Affichage</string>
+    <string name="section_about">À propos</string>
+    <string name="merge_handwriting">Écriture manuscrite et signatures</string>
+    <string name="merge_handwriting_summary">Tracés au doigt ou au stylet, tampons</string>
+    <string name="merge_text">Zones de texte</string>
+    <string name="merge_text_summary">Texte saisi ajouté par-dessus la page</string>
+    <string name="merge_markup">Surlignages et formes</string>
+    <string name="merge_markup_summary">Surlignages, soulignements, ratures, lignes, cadres</string>
+    <string name="merge_notes">Commentaires</string>
+    <string name="merge_notes_summary">Icônes de note ; le texte du commentaire est supprimé</string>
+    <string name="merge_forms">Champs de formulaire</string>
+    <string name="merge_forms_summary">Désactivé : le formulaire reste modifiable</string>
+    <string name="merge_links">Supprimer les liens</string>
+    <string name="merge_links_summary">Rendre inactifs les liens web et internes</string>
+    <string name="suffix">Suffixe du nom de fichier</string>
+    <string name="suffix_example">Exemple : %1$s</string>
+    <string name="example_name">contrat</string>
+    <string name="theme">Thème</string>
+    <string name="language">Langue</string>
+    <string name="language_summary">Celle du téléphone, sauf si vous en choisissez une autre</string>
+    <string name="privacy">Politique de confidentialité</string>
+    <string name="privacy_summary">Aucune donnée collectée</string>
+    <string name="privacy_text">PDF Flattener ne collecte aucune donnée.\n\nL’application n’a pas accès à Internet : elle ne peut rien envoyer nulle part. Les documents sont traités uniquement sur votre appareil et seul le dernier est conservé, dans l’espace privé de l’application, jusqu’à l’ouverture du suivant.\n\nL’application ne conserve que vos réglages, sur votre appareil. Ni compte, ni publicité, ni statistiques, ni pistage.\n\nElle ne lit un document que lorsque vous le choisissez ou le partagez vers elle, et n’écrit que là où vous l’enregistrez.\n\nContact : %1$s</string>
+    <string name="licenses">Licences open source</string>
+    <string name="contact">Contact</string>
+    <string name="source_code">Code source</string>
+    <string name="version">Version</string>
+    <string name="close">Fermer</string>
+    <plurals name="result_merged">
+        <item quantity="one">%1$d élément intégré</item>
+        <item quantity="many">%1$d éléments intégrés</item>
+        <item quantity="other">%1$d éléments intégrés</item>
+    </plurals>
+    <plurals name="result_pages">
+        <item quantity="one">%1$d page</item>
+        <item quantity="many">%1$d pages</item>
+        <item quantity="other">%1$d pages</item>
+    </plurals>
+    <plurals name="count_handwriting">
+        <item quantity="one">%1$d tracé ou signature</item>
+        <item quantity="many">%1$d tracés et signatures</item>
+        <item quantity="other">%1$d tracés et signatures</item>
+    </plurals>
+    <plurals name="count_text">
+        <item quantity="one">%1$d zone de texte</item>
+        <item quantity="many">%1$d zones de texte</item>
+        <item quantity="other">%1$d zones de texte</item>
+    </plurals>
+    <plurals name="count_markup">
+        <item quantity="one">%1$d surlignage ou forme</item>
+        <item quantity="many">%1$d surlignages et formes</item>
+        <item quantity="other">%1$d surlignages et formes</item>
+    </plurals>
+    <plurals name="count_notes">
+        <item quantity="one">%1$d commentaire</item>
+        <item quantity="many">%1$d commentaires</item>
+        <item quantity="other">%1$d commentaires</item>
+    </plurals>
+    <plurals name="count_forms">
+        <item quantity="one">%1$d champ de formulaire</item>
+        <item quantity="many">%1$d champs de formulaire</item>
+        <item quantity="other">%1$d champs de formulaire</item>
+    </plurals>
+    <plurals name="count_links">
+        <item quantity="one">%1$d lien</item>
+        <item quantity="many">%1$d liens</item>
+        <item quantity="other">%1$d liens</item>
+    </plurals>
+    <plurals name="count_other">
+        <item quantity="one">%1$d autre</item>
+        <item quantity="many">%1$d autres</item>
+        <item quantity="other">%1$d autres</item>
+    </plurals>
+    <string-array name="themes">
+        <item>Paramètre du système</item>
+        <item>Clair</item>
+        <item>Sombre</item>
+    </string-array>
+</resources>

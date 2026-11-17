@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <!-- New versions are adopted deliberately, not by a CI run turning red overnight -->
+    <issue id="AndroidGradlePluginVersion" severity="ignore" />
+    <issue id="GradleDependency" severity="ignore" />
+    <issue id="NewerVersionAvailable" severity="ignore" />
+    <!-- Empty trust manager inside BouncyCastle's TLS code, which PDFBox never calls (no network) -->
+    <issue id="TrustAllX509TrustManager">
+        <ignore regexp="bouncycastle" />
+    </issue>
+</lint>

@@ -1,0 +1,1 @@
+Première version : intègre signatures, écriture manuscrite, zones de texte et champs de formulaire dans les pages, hors ligne. Comparaison original / aplati, choix des éléments à intégrer, PDF protégés par mot de passe. Thèmes clair et sombre, 7 langues.

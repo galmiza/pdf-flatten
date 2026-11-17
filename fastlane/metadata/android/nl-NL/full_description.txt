@@ -1,0 +1,30 @@
+PDF Flattener maakt handtekeningen, handschrift, tekstvakken en formuliervelden een vast onderdeel van de pagina's van je pdf, zodat iedereen die het document opent ze ziet.
+
+WAAROM?
+Als je een pdf op je telefoon ondertekent of annoteert, voegen de meeste apps een zwevende laag boven de pagina toe in plaats van erop te tekenen. Veel viewers, e-mailvoorbeelden en browsers tonen die lagen niet: je handtekening verdwijnt voor de ontvanger en ingevulde velden kunnen leeg lijken.
+
+WAT HET DOET
+PDF Flattener voegt die lagen samen met de pagina zelf:
+• Handgeschreven handtekeningen, pennenstreken en stempels
+• Getypte tekstvakken
+• Markeringen, onderstrepingen en vormen
+• Formuliervelden (of laat het formulier invulbaar, jij kiest)
+
+Het resultaat blijft scherp: de tekening blijft vectorieel, tekst blijft selecteerbaar en het bestand blijft ongeveer even groot. Niets wordt een wazige afbeelding.
+
+ZO WERKT HET
+1. Kies een pdf, of deel hem vanuit elke app met PDF Flattener.
+2. Controleer het resultaat: wissel tussen het origineel en de platgeslagen versie.
+3. Sla de kopie op (naam_flattened.pdf, achtervoegsel instelbaar) of deel hem meteen.
+
+PRIVACY VOOROP
+• 100% offline: de app heeft geen internettoegang
+• Geen account, geen advertenties, geen tracking
+• Je documenten verlaten nooit je telefoon
+
+VERDER
+• Met een wachtwoord beveiligde pdf's
+• Kies wat je samenvoegt en het achtervoegsel van de bestandsnaam
+• Licht en donker thema
+• Nederlands, Engels, Frans, Spaans, Duits, Italiaans en Portugees
+• Open source (MIT-licentie)

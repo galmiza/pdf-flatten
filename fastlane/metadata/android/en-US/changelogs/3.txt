@@ -1,0 +1,1 @@
+First release: merges signatures, handwriting, text boxes and form fields into the pages, offline. Compare the original and flattened versions, choose what to merge, open password-protected PDFs. Light and dark themes, 7 languages.

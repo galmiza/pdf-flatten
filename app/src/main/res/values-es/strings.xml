@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start_headline">Que quede fijo</string>
+    <string name="start_body">Firmas, escritura a mano, cuadros de texto y campos de formulario pasan a formar parte de las páginas, para que todos los vean.</string>
+    <string name="start_hint">O comparte un PDF con esta app. Nada sale de tu teléfono.</string>
+    <string name="pick">Elegir un PDF</string>
+    <string name="reading">Leyendo el documento…</string>
+    <string name="progress">Página %1$d de %2$d</string>
+    <string name="working_headline">Aplanando…</string>
+    <string name="error_headline">Algo ha fallado</string>
+    <string name="error_memory">No hay memoria suficiente para procesar este documento.</string>
+    <string name="error_generic">No se ha podido procesar este archivo: %1$s</string>
+    <string name="error_save">No se ha podido guardar el archivo</string>
+    <string name="saved">Guardado</string>
+    <string name="another">Nuevo</string>
+    <string name="original">Original</string>
+    <string name="flattened">Aplanado</string>
+    <string name="caption_original">Original, tal como lo muestran los visores que ocultan las capas flotantes</string>
+    <string name="caption_flattened">Aplanado: lo que verán todos</string>
+    <string name="preview">Vista previa de la página</string>
+    <string name="page">%1$d / %2$d</string>
+    <string name="previous">Página anterior</string>
+    <string name="next">Página siguiente</string>
+    <string name="save">Guardar</string>
+    <string name="share">Compartir</string>
+    <string name="settings">Ajustes</string>
+    <string name="back">Atrás</string>
+    <string name="result_nothing">Ya es plano: nada que integrar</string>
+    <string name="result_kept">sin cambios: %1$s</string>
+    <string name="password_title">Se necesita contraseña</string>
+    <string name="password_message">Este PDF está bloqueado. Introduce su contraseña para aplanarlo. La copia aplanada no estará protegida con contraseña.</string>
+    <string name="password_wrong">Contraseña incorrecta, inténtalo de nuevo.</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="open">Abrir</string>
+    <string name="cancel">Cancelar</string>
+    <string name="section_merge">Integrar en las páginas</string>
+    <string name="section_output">Archivo generado</string>
+    <string name="section_display">Pantalla</string>
+    <string name="section_about">Acerca de</string>
+    <string name="merge_handwriting">Escritura a mano y firmas</string>
+    <string name="merge_handwriting_summary">Trazos con el dedo o un lápiz, sellos</string>
+    <string name="merge_text">Cuadros de texto</string>
+    <string name="merge_text_summary">Texto escrito añadido sobre la página</string>
+    <string name="merge_markup">Resaltados y formas</string>
+    <string name="merge_markup_summary">Resaltados, subrayados, tachados, líneas, recuadros</string>
+    <string name="merge_notes">Comentarios</string>
+    <string name="merge_notes_summary">Iconos de nota; el texto del comentario se elimina</string>
+    <string name="merge_forms">Campos de formulario</string>
+    <string name="merge_forms_summary">Desactivado: el formulario sigue siendo editable</string>
+    <string name="merge_links">Quitar enlaces</string>
+    <string name="merge_links_summary">Desactivar los enlaces web e internos</string>
+    <string name="suffix">Sufijo del nombre de archivo</string>
+    <string name="suffix_example">Ejemplo: %1$s</string>
+    <string name="example_name">contrato</string>
+    <string name="theme">Tema</string>
+    <string name="language">Idioma</string>
+    <string name="language_summary">El del teléfono, salvo que elijas otro</string>
+    <string name="privacy">Política de privacidad</string>
+    <string name="privacy_summary">No se recopilan datos</string>
+    <string name="privacy_text">PDF Flattener no recopila ningún dato.\n\nLa app no tiene acceso a internet: no puede enviar nada a ningún sitio. Los documentos se procesan solo en tu dispositivo y solo se conserva el último, en el almacenamiento privado de la app, hasta que abres el siguiente.\n\nLa app solo guarda tus ajustes, en tu dispositivo. Sin cuenta, sin anuncios, sin estadísticas y sin seguimiento.\n\nSolo lee un documento cuando lo eliges o lo compartes con la app, y solo escribe donde tú lo guardas.\n\nContacto: %1$s</string>
+    <string name="licenses">Licencias de código abierto</string>
+    <string name="contact">Contacto</string>
+    <string name="source_code">Código fuente</string>
+    <string name="version">Versión</string>
+    <string name="close">Cerrar</string>
+    <plurals name="result_merged">
+        <item quantity="one">%1$d elemento integrado</item>
+        <item quantity="many">%1$d elementos integrados</item>
+        <item quantity="other">%1$d elementos integrados</item>
+    </plurals>
+    <plurals name="result_pages">
+        <item quantity="one">%1$d página</item>
+        <item quantity="many">%1$d páginas</item>
+        <item quantity="other">%1$d páginas</item>
+    </plurals>
+    <plurals name="count_handwriting">
+        <item quantity="one">%1$d trazo o firma</item>
+        <item quantity="many">%1$d trazos y firmas</item>
+        <item quantity="other">%1$d trazos y firmas</item>
+    </plurals>
+    <plurals name="count_text">
+        <item quantity="one">%1$d cuadro de texto</item>
+        <item quantity="many">%1$d cuadros de texto</item>
+        <item quantity="other">%1$d cuadros de texto</item>
+    </plurals>
+    <plurals name="count_markup">
+        <item quantity="one">%1$d resaltado o forma</item>
+        <item quantity="many">%1$d resaltados y formas</item>
+        <item quantity="other">%1$d resaltados y formas</item>
+    </plurals>
+    <plurals name="count_notes">
+        <item quantity="one">%1$d comentario</item>
+        <item quantity="many">%1$d comentarios</item>
+        <item quantity="other">%1$d comentarios</item>
+    </plurals>
+    <plurals name="count_forms">
+        <item quantity="one">%1$d campo de formulario</item>
+        <item quantity="many">%1$d campos de formulario</item>
+        <item quantity="other">%1$d campos de formulario</item>
+    </plurals>
+    <plurals name="count_links">
+        <item quantity="one">%1$d enlace</item>
+        <item quantity="many">%1$d enlaces</item>
+        <item quantity="other">%1$d enlaces</item>
+    </plurals>
+    <plurals name="count_other">
+        <item quantity="one">%1$d otro</item>
+        <item quantity="many">%1$d otros</item>
+        <item quantity="other">%1$d otros</item>
+    </plurals>
+    <string-array name="themes">
+        <item>Predeterminado del sistema</item>
+        <item>Claro</item>
+        <item>Oscuro</item>
+    </string-array>
+</resources>

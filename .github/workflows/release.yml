@@ -1,0 +1,48 @@
+name: Release
+
+# Push a tag such as v1.0.0 to build the signed APK and publish it as a GitHub release
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: 17
+      - uses: gradle/actions/setup-gradle@v6
+      - name: Restore the signing key
+        env:
+          KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        run: |
+          if [ -z "$KEYSTORE_BASE64" ]; then
+            echo "::warning::No KEYSTORE_BASE64 secret: the APK is signed with a throwaway debug key"
+            exit 0
+          fi
+          echo "$KEYSTORE_BASE64" | base64 --decode > "$RUNNER_TEMP/release.jks"
+          {
+            echo "ORG_GRADLE_PROJECT_pdfFlattenerKeystore=$RUNNER_TEMP/release.jks"
+            echo "ORG_GRADLE_PROJECT_pdfFlattenerKeystorePassword=$KEYSTORE_PASSWORD"
+            echo "ORG_GRADLE_PROJECT_pdfFlattenerKeyAlias=$KEY_ALIAS"
+            echo "ORG_GRADLE_PROJECT_pdfFlattenerKeyPassword=$KEY_PASSWORD"
+          } >> "$GITHUB_ENV"
+      - run: ./gradlew lintRelease testDebugUnitTest assembleRelease bundleRelease
+      - name: Publish the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        # The APK installs directly; the AAB is the file to upload to Google Play
+        run: |
+          cp app/build/outputs/apk/release/app-release.apk "pdf-flattener-${GITHUB_REF_NAME}.apk"
+          cp app/build/outputs/bundle/release/app-release.aab "pdf-flattener-${GITHUB_REF_NAME}.aab"
+          gh release create "$GITHUB_REF_NAME" "pdf-flattener-${GITHUB_REF_NAME}.apk" "pdf-flattener-${GITHUB_REF_NAME}.aab" \
+            --title "$GITHUB_REF_NAME" --notes "See [CHANGELOG.md](CHANGELOG.md) for the changes."

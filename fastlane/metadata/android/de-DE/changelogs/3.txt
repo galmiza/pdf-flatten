@@ -1,0 +1,1 @@
+Erste Version: übernimmt Unterschriften, Handschrift, Textfelder und Formularfelder offline in die Seiten. Original und reduzierte Version vergleichen, auswählen, was übernommen wird, passwortgeschützte PDFs öffnen. Helles und dunkles Design, 7 Sprachen.

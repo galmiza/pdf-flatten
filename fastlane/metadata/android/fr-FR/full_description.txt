@@ -1,0 +1,30 @@
+PDF Flattener intègre définitivement signatures, écriture manuscrite, zones de texte et champs de formulaire dans les pages de vos PDF : toute personne qui ouvre le document les voit.
+
+POURQUOI ?
+Quand vous signez ou annotez un PDF sur votre téléphone, la plupart des applications ajoutent un calque flottant au-dessus de la page au lieu de dessiner dedans. De nombreux lecteurs, aperçus de messagerie et navigateurs n’affichent pas ces calques : votre signature disparaît pour le destinataire, et les champs remplis peuvent apparaître vides.
+
+CE QUE FAIT L’APPLICATION
+PDF Flattener fusionne ces calques dans la page elle-même :
+• Signatures manuscrites, tracés et tampons
+• Zones de texte saisi
+• Surlignages, soulignements et formes
+• Champs de formulaire (ou formulaire laissé modifiable, au choix)
+
+Le résultat reste net : le dessin reste vectoriel, le texte reste sélectionnable et le fichier garde à peu près la même taille. Rien n’est transformé en image floue.
+
+MODE D’EMPLOI
+1. Choisissez un PDF, ou partagez-le vers PDF Flattener depuis n’importe quelle application.
+2. Vérifiez le résultat : passez de l’original à la version aplatie.
+3. Enregistrez la copie (nom_flattened.pdf, suffixe modifiable) ou partagez-la directement.
+
+CONFIDENTIEL PAR CONCEPTION
+• 100 % hors ligne : l’application n’a pas accès à Internet
+• Ni compte, ni publicité, ni pistage
+• Vos documents ne quittent jamais votre téléphone
+
+ET AUSSI
+• PDF protégés par mot de passe
+• Choix des éléments à intégrer et du suffixe du nom de fichier
+• Thèmes clair et sombre
+• Français, anglais, espagnol, allemand, italien, portugais et néerlandais
+• Open source (licence MIT)

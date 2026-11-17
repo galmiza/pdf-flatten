@@ -1,0 +1,1 @@
+Primera versión: integra firmas, escritura a mano, cuadros de texto y campos de formulario en las páginas, sin conexión. Compara original y aplanado, elige qué integrar, abre PDF con contraseña. Temas claro y oscuro, 7 idiomas.

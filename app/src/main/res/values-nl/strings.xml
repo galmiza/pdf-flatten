@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start_headline">Maak het definitief</string>
+    <string name="start_body">Handtekeningen, handschrift, tekstvakken en formuliervelden worden deel van de pagina\'s, zodat iedereen ze ziet.</string>
+    <string name="start_hint">Of deel een pdf met deze app. Er verlaat niets je telefoon.</string>
+    <string name="pick">Kies een pdf</string>
+    <string name="reading">Document lezen…</string>
+    <string name="progress">Pagina %1$d van %2$d</string>
+    <string name="working_headline">Bezig met platslaan…</string>
+    <string name="error_headline">Er is iets misgegaan</string>
+    <string name="error_memory">Niet genoeg geheugen om dit document te verwerken.</string>
+    <string name="error_generic">Dit bestand kan niet worden verwerkt: %1$s</string>
+    <string name="error_save">Het bestand kan niet worden opgeslagen</string>
+    <string name="saved">Opgeslagen</string>
+    <string name="another">Nieuw</string>
+    <string name="original">Origineel</string>
+    <string name="flattened">Platgeslagen</string>
+    <string name="caption_original">Origineel, zoals viewers die zwevende lagen verbergen het tonen</string>
+    <string name="caption_flattened">Platgeslagen: wat iedereen ziet</string>
+    <string name="preview">Paginavoorbeeld</string>
+    <string name="page">%1$d / %2$d</string>
+    <string name="previous">Vorige pagina</string>
+    <string name="next">Volgende pagina</string>
+    <string name="save">Opslaan</string>
+    <string name="share">Delen</string>
+    <string name="settings">Instellingen</string>
+    <string name="back">Terug</string>
+    <string name="result_nothing">Al plat: niets samen te voegen</string>
+    <string name="result_kept">ongewijzigd gelaten: %1$s</string>
+    <string name="password_title">Wachtwoord vereist</string>
+    <string name="password_message">Deze pdf is vergrendeld. Voer het wachtwoord in om hem plat te slaan. De platgeslagen kopie is niet met een wachtwoord beveiligd.</string>
+    <string name="password_wrong">Onjuist wachtwoord, probeer het opnieuw.</string>
+    <string name="password_hint">Wachtwoord</string>
+    <string name="open">Openen</string>
+    <string name="cancel">Annuleren</string>
+    <string name="section_merge">Samenvoegen in de pagina\'s</string>
+    <string name="section_output">Uitvoerbestand</string>
+    <string name="section_display">Weergave</string>
+    <string name="section_about">Over</string>
+    <string name="merge_handwriting">Handschrift en handtekeningen</string>
+    <string name="merge_handwriting_summary">Met vinger of pen getekend, stempels</string>
+    <string name="merge_text">Tekstvakken</string>
+    <string name="merge_text_summary">Getypte tekst bovenop de pagina</string>
+    <string name="merge_markup">Markeringen en vormen</string>
+    <string name="merge_markup_summary">Markeringen, onderstrepingen, doorhalingen, lijnen, kaders</string>
+    <string name="merge_notes">Opmerkingen</string>
+    <string name="merge_notes_summary">Notitiepictogrammen; de tekst van de opmerking vervalt</string>
+    <string name="merge_forms">Formuliervelden</string>
+    <string name="merge_forms_summary">Uit: het formulier blijft invulbaar</string>
+    <string name="merge_links">Links verwijderen</string>
+    <string name="merge_links_summary">Web- en paginalinks uitschakelen</string>
+    <string name="suffix">Achtervoegsel bestandsnaam</string>
+    <string name="suffix_example">Voorbeeld: %1$s</string>
+    <string name="example_name">contract</string>
+    <string name="theme">Thema</string>
+    <string name="language">Taal</string>
+    <string name="language_summary">Die van de telefoon, tenzij je een andere kiest</string>
+    <string name="privacy">Privacybeleid</string>
+    <string name="privacy_summary">Geen gegevens verzameld</string>
+    <string name="privacy_text">PDF Flattener verzamelt geen gegevens.\n\nDe app heeft geen internettoegang: hij kan nergens iets naartoe sturen. Documenten worden alleen op je apparaat verwerkt en alleen het laatste blijft in de privéopslag van de app, tot je het volgende opent.\n\nDe app bewaart alleen je instellingen, op je apparaat. Geen account, geen advertenties, geen statistieken, geen tracking.\n\nHij leest een document alleen als je het kiest of met de app deelt, en schrijft alleen waar jij het opslaat.\n\nContact: %1$s</string>
+    <string name="licenses">Opensourcelicenties</string>
+    <string name="contact">Contact</string>
+    <string name="source_code">Broncode</string>
+    <string name="version">Versie</string>
+    <string name="close">Sluiten</string>
+    <plurals name="result_merged">
+        <item quantity="one">%1$d element samengevoegd</item>
+        <item quantity="other">%1$d elementen samengevoegd</item>
+    </plurals>
+    <plurals name="result_pages">
+        <item quantity="one">%1$d pagina</item>
+        <item quantity="other">%1$d pagina\'s</item>
+    </plurals>
+    <plurals name="count_handwriting">
+        <item quantity="one">%1$d handschrift of handtekening</item>
+        <item quantity="other">%1$d pennenstreken en handtekeningen</item>
+    </plurals>
+    <plurals name="count_text">
+        <item quantity="one">%1$d tekstvak</item>
+        <item quantity="other">%1$d tekstvakken</item>
+    </plurals>
+    <plurals name="count_markup">
+        <item quantity="one">%1$d markering of vorm</item>
+        <item quantity="other">%1$d markeringen en vormen</item>
+    </plurals>
+    <plurals name="count_notes">
+        <item quantity="one">%1$d opmerking</item>
+        <item quantity="other">%1$d opmerkingen</item>
+    </plurals>
+    <plurals name="count_forms">
+        <item quantity="one">%1$d formulierveld</item>
+        <item quantity="other">%1$d formuliervelden</item>
+    </plurals>
+    <plurals name="count_links">
+        <item quantity="one">%1$d link</item>
+        <item quantity="other">%1$d links</item>
+    </plurals>
+    <plurals name="count_other">
+        <item quantity="one">%1$d overig</item>
+        <item quantity="other">%1$d overige</item>
+    </plurals>
+    <string-array name="themes">
+        <item>Systeemstandaard</item>
+        <item>Licht</item>
+        <item>Donker</item>
+    </string-array>
+</resources>

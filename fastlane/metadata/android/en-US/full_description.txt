@@ -1,0 +1,30 @@
+PDF Flattener makes signatures, handwriting, text boxes and form fields a permanent part of your PDF pages, so whoever opens the document sees them.
+
+WHY?
+When you sign or annotate a PDF on your phone, most apps add a floating layer on top of the page instead of drawing on it. Many viewers, mail previews and browsers don't display these layers: your signature simply disappears for the recipient, and filled form fields can show up empty.
+
+WHAT IT DOES
+PDF Flattener merges these layers into the page itself:
+• Handwritten signatures, ink and stamps
+• Typed text boxes
+• Highlights, underlines and shapes
+• Form fields (or keep the form fillable, your choice)
+
+The result stays sharp: the drawing stays vector, text remains selectable and the file keeps about the same size. Nothing is turned into a blurry image.
+
+HOW IT WORKS
+1. Choose a PDF, or share it to PDF Flattener from any app.
+2. Check the result: switch between the original and the flattened version.
+3. Save the copy (name_flattened.pdf) or share it right away.
+
+PRIVATE BY DESIGN
+• 100% offline: the app has no internet access
+• No account, no ads, no tracking
+• Your documents never leave your phone
+
+ALSO
+• Password-protected PDFs
+• Choose what to merge and the file name suffix
+• Light and dark themes
+• English, French, Spanish, German, Italian, Portuguese and Dutch
+• Open source (MIT license)

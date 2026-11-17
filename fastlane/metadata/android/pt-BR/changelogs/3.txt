@@ -1,0 +1,1 @@
+Primeira versão: integra assinaturas, escrita à mão, caixas de texto e campos de formulário às páginas, offline. Compare original e achatado, escolha o que integrar, abra PDFs com senha. Temas claro e escuro, 7 idiomas.

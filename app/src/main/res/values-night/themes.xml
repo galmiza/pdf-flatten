@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark framework widgets (switches, text fields, dialogs); the rest comes from the colors -->
+    <style name="Base.Theme.PdfFlattener" parent="android:Theme.Material.NoActionBar" />
+    <style name="Base.Theme.PdfFlattener.Dialog" parent="android:Theme.Material.Dialog.Alert" />
+</resources>

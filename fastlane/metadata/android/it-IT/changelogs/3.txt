@@ -1,0 +1,1 @@
+Prima versione: integra firme, scrittura a mano, caselle di testo e campi dei moduli nelle pagine, offline. Confronta originale e appiattito, scegli cosa integrare, apri PDF protetti da password. Tema chiaro e scuro, 7 lingue.

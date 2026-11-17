@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start_headline">Alles fest verankern</string>
+    <string name="start_body">Unterschriften, Handschrift, Textfelder und Formularfelder werden Teil der Seiten, damit alle sie sehen.</string>
+    <string name="start_hint">Oder teile ein PDF mit dieser App. Nichts verlässt dein Smartphone.</string>
+    <string name="pick">PDF auswählen</string>
+    <string name="reading">Dokument wird gelesen…</string>
+    <string name="progress">Seite %1$d von %2$d</string>
+    <string name="working_headline">Wird reduziert…</string>
+    <string name="error_headline">Etwas ist schiefgelaufen</string>
+    <string name="error_memory">Nicht genug Speicher, um dieses Dokument zu verarbeiten.</string>
+    <string name="error_generic">Diese Datei konnte nicht verarbeitet werden: %1$s</string>
+    <string name="error_save">Die Datei konnte nicht gespeichert werden</string>
+    <string name="saved">Gespeichert</string>
+    <string name="another">Neu</string>
+    <string name="original">Original</string>
+    <string name="flattened">Reduziert</string>
+    <string name="caption_original">Original, so wie es Viewer zeigen, die schwebende Ebenen ausblenden</string>
+    <string name="caption_flattened">Reduziert: das sehen alle</string>
+    <string name="preview">Seitenvorschau</string>
+    <string name="page">%1$d / %2$d</string>
+    <string name="previous">Vorherige Seite</string>
+    <string name="next">Nächste Seite</string>
+    <string name="save">Speichern</string>
+    <string name="share">Teilen</string>
+    <string name="settings">Einstellungen</string>
+    <string name="back">Zurück</string>
+    <string name="result_nothing">Bereits flach: nichts zu übernehmen</string>
+    <string name="result_kept">unverändert: %1$s</string>
+    <string name="password_title">Passwort erforderlich</string>
+    <string name="password_message">Dieses PDF ist gesperrt. Gib das Passwort ein, um es zu reduzieren. Die reduzierte Kopie ist nicht passwortgeschützt.</string>
+    <string name="password_wrong">Falsches Passwort, bitte erneut versuchen.</string>
+    <string name="password_hint">Passwort</string>
+    <string name="open">Öffnen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="section_merge">In die Seiten übernehmen</string>
+    <string name="section_output">Ausgabedatei</string>
+    <string name="section_display">Darstellung</string>
+    <string name="section_about">Über</string>
+    <string name="merge_handwriting">Handschrift und Unterschriften</string>
+    <string name="merge_handwriting_summary">Mit Finger oder Stift gezeichnet, Stempel</string>
+    <string name="merge_text">Textfelder</string>
+    <string name="merge_text_summary">Auf der Seite hinzugefügter getippter Text</string>
+    <string name="merge_markup">Markierungen und Formen</string>
+    <string name="merge_markup_summary">Hervorhebungen, Unterstreichungen, Durchstreichungen, Linien, Rahmen</string>
+    <string name="merge_notes">Kommentare</string>
+    <string name="merge_notes_summary">Notizsymbole; der Kommentartext selbst entfällt</string>
+    <string name="merge_forms">Formularfelder</string>
+    <string name="merge_forms_summary">Aus: das Formular bleibt ausfüllbar</string>
+    <string name="merge_links">Links entfernen</string>
+    <string name="merge_links_summary">Web- und Seitenlinks deaktivieren</string>
+    <string name="suffix">Dateinamen-Suffix</string>
+    <string name="suffix_example">Beispiel: %1$s</string>
+    <string name="example_name">vertrag</string>
+    <string name="theme">Design</string>
+    <string name="language">Sprache</string>
+    <string name="language_summary">Wie auf dem Smartphone, außer du wählst eine andere</string>
+    <string name="privacy">Datenschutzerklärung</string>
+    <string name="privacy_summary">Keine Datenerhebung</string>
+    <string name="privacy_text">PDF Flattener erhebt keine Daten.\n\nDie App hat keinen Internetzugriff: Sie kann nichts irgendwohin senden. Dokumente werden nur auf deinem Gerät verarbeitet und nur das letzte bleibt im privaten Speicher der App, bis du das nächste öffnest.\n\nDie App speichert nur deine Einstellungen, auf deinem Gerät. Kein Konto, keine Werbung, keine Statistiken, kein Tracking.\n\nSie liest ein Dokument nur, wenn du es auswählst oder mit der App teilst, und schreibt nur dort, wo du speicherst.\n\nKontakt: %1$s</string>
+    <string name="licenses">Open-Source-Lizenzen</string>
+    <string name="contact">Kontakt</string>
+    <string name="source_code">Quellcode</string>
+    <string name="version">Version</string>
+    <string name="close">Schließen</string>
+    <plurals name="result_merged">
+        <item quantity="one">%1$d Element übernommen</item>
+        <item quantity="other">%1$d Elemente übernommen</item>
+    </plurals>
+    <plurals name="result_pages">
+        <item quantity="one">%1$d Seite</item>
+        <item quantity="other">%1$d Seiten</item>
+    </plurals>
+    <plurals name="count_handwriting">
+        <item quantity="one">%1$d Handschrift oder Unterschrift</item>
+        <item quantity="other">%1$d Striche und Unterschriften</item>
+    </plurals>
+    <plurals name="count_text">
+        <item quantity="one">%1$d Textfeld</item>
+        <item quantity="other">%1$d Textfelder</item>
+    </plurals>
+    <plurals name="count_markup">
+        <item quantity="one">%1$d Markierung oder Form</item>
+        <item quantity="other">%1$d Markierungen und Formen</item>
+    </plurals>
+    <plurals name="count_notes">
+        <item quantity="one">%1$d Kommentar</item>
+        <item quantity="other">%1$d Kommentare</item>
+    </plurals>
+    <plurals name="count_forms">
+        <item quantity="one">%1$d Formularfeld</item>
+        <item quantity="other">%1$d Formularfelder</item>
+    </plurals>
+    <plurals name="count_links">
+        <item quantity="one">%1$d Link</item>
+        <item quantity="other">%1$d Links</item>
+    </plurals>
+    <plurals name="count_other">
+        <item quantity="one">%1$d sonstiges</item>
+        <item quantity="other">%1$d sonstige</item>
+    </plurals>
+    <string-array name="themes">
+        <item>Systemstandard</item>
+        <item>Hell</item>
+        <item>Dunkel</item>
+    </string-array>
+</resources>

@@ -1,0 +1,30 @@
+O PDF Flattener integra de forma permanente assinaturas, escrita à mão, caixas de texto e campos de formulário às páginas dos seus PDFs, para que qualquer pessoa que abrir o documento os veja.
+
+POR QUÊ?
+Quando você assina ou anota um PDF no celular, a maioria dos apps adiciona uma camada flutuante sobre a página em vez de desenhar nela. Muitos leitores, prévias de e-mail e navegadores não exibem essas camadas: sua assinatura desaparece para o destinatário, e campos preenchidos podem aparecer vazios.
+
+O QUE ELE FAZ
+O PDF Flattener integra essas camadas à própria página:
+• Assinaturas à mão, traços e carimbos
+• Caixas de texto digitado
+• Destaques, sublinhados e formas
+• Campos de formulário (ou mantenha o formulário preenchível, você escolhe)
+
+O resultado continua nítido: o desenho continua vetorial, o texto continua selecionável e o arquivo mantém mais ou menos o mesmo tamanho. Nada vira uma imagem borrada.
+
+COMO FUNCIONA
+1. Escolha um PDF ou compartilhe-o com o PDF Flattener a partir de qualquer app.
+2. Confira o resultado: alterne entre o original e a versão achatada.
+3. Salve a cópia (nome_flattened.pdf, sufixo configurável) ou compartilhe na hora.
+
+PRIVADO DESDE A ORIGEM
+• 100% offline: o app não tem acesso à internet
+• Sem conta, sem anúncios, sem rastreamento
+• Seus documentos nunca saem do seu celular
+
+E MAIS
+• PDFs protegidos por senha
+• Escolha o que integrar e o sufixo do nome do arquivo
+• Temas claro e escuro
+• Português, inglês, francês, espanhol, alemão, italiano e holandês
+• Código aberto (licença MIT)

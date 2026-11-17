@@ -1,0 +1,1 @@
+Make signatures and form fields visible in every PDF viewer. 100% offline.

@@ -1,0 +1,30 @@
+PDF Flattener macht Unterschriften, Handschrift, Textfelder und Formularfelder zu einem festen Bestandteil deiner PDF-Seiten, damit alle, die das Dokument öffnen, sie sehen.
+
+WARUM?
+Wenn du ein PDF auf dem Smartphone unterschreibst oder kommentierst, legen die meisten Apps eine schwebende Ebene über die Seite, statt auf ihr zu zeichnen. Viele Viewer, E-Mail-Vorschauen und Browser zeigen diese Ebenen nicht an: Deine Unterschrift verschwindet beim Empfänger, und ausgefüllte Formularfelder erscheinen womöglich leer.
+
+WAS DIE APP MACHT
+PDF Flattener übernimmt diese Ebenen in die Seite selbst:
+• Handschriftliche Unterschriften, Striche und Stempel
+• Getippte Textfelder
+• Hervorhebungen, Unterstreichungen und Formen
+• Formularfelder (oder das Formular bleibt ausfüllbar, wie du willst)
+
+Das Ergebnis bleibt scharf: Die Zeichnung bleibt vektoriell, Text bleibt markierbar und die Datei behält ungefähr ihre Größe. Nichts wird zu einem unscharfen Bild.
+
+SO FUNKTIONIERT ES
+1. Wähle ein PDF aus oder teile es aus einer beliebigen App mit PDF Flattener.
+2. Prüfe das Ergebnis: Wechsle zwischen Original und reduzierter Version.
+3. Speichere die Kopie (name_flattened.pdf, Suffix einstellbar) oder teile sie direkt.
+
+DATENSCHUTZ VON GRUND AUF
+• 100 % offline: Die App hat keinen Internetzugriff
+• Kein Konto, keine Werbung, kein Tracking
+• Deine Dokumente verlassen nie dein Smartphone
+
+AUSSERDEM
+• Passwortgeschützte PDFs
+• Wähle, was übernommen wird, und das Dateinamen-Suffix
+• Helles und dunkles Design
+• Deutsch, Englisch, Französisch, Spanisch, Italienisch, Portugiesisch und Niederländisch
+• Open Source (MIT-Lizenz)

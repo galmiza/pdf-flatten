@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">PDF Flattener</string>
+    <string name="list_separator" translatable="false">" · "</string>
+    <string name="licenses_summary" translatable="false">PDF Flattener (MIT), PdfBox-Android (Apache 2.0), Bouncy Castle (MIT)</string>
+    <string name="start_headline">Make it stick</string>
+    <string name="start_body">Signatures, handwriting, text boxes and form fields become part of the pages, so everyone sees them.</string>
+    <string name="start_hint">Or share a PDF to this app. Nothing leaves your phone.</string>
+    <string name="pick">Choose a PDF</string>
+    <string name="reading">Reading the document…</string>
+    <string name="progress">Page %1$d of %2$d</string>
+    <string name="working_headline">Flattening…</string>
+    <string name="error_headline">Something went wrong</string>
+    <string name="error_memory">Not enough memory to process this document.</string>
+    <string name="error_generic">This file could not be processed: %1$s</string>
+    <string name="error_save">Could not save the file</string>
+    <string name="saved">Saved</string>
+    <string name="another">New</string>
+    <string name="original">Original</string>
+    <string name="flattened">Flattened</string>
+    <string name="caption_original">Original, as shown by viewers that hide floating layers</string>
+    <string name="caption_flattened">Flattened: what everyone will see</string>
+    <string name="preview">Page preview</string>
+    <string name="page">%1$d / %2$d</string>
+    <string name="previous">Previous page</string>
+    <string name="next">Next page</string>
+    <string name="save">Save</string>
+    <string name="share">Share</string>
+    <string name="settings">Settings</string>
+    <string name="back">Back</string>
+    <string name="result_nothing">Already flat: nothing to merge</string>
+    <string name="result_kept">kept as is: %1$s</string>
+    <string name="password_title">Password required</string>
+    <string name="password_message">This PDF is locked. Enter its password to flatten it. The flattened copy will not be password protected.</string>
+    <string name="password_wrong">Wrong password, try again.</string>
+    <string name="password_hint">Password</string>
+    <string name="open">Open</string>
+    <string name="cancel">Cancel</string>
+    <string name="section_merge">Merge into the pages</string>
+    <string name="section_output">Output</string>
+    <string name="section_display">Display</string>
+    <string name="section_about">About</string>
+    <string name="merge_handwriting">Handwriting and signatures</string>
+    <string name="merge_handwriting_summary">Ink drawn with a finger or a pen, stamps</string>
+    <string name="merge_text">Text boxes</string>
+    <string name="merge_text_summary">Typed text added on top of the page</string>
+    <string name="merge_markup">Highlights and shapes</string>
+    <string name="merge_markup_summary">Highlights, underlines, strikeouts, lines, boxes</string>
+    <string name="merge_notes">Comments</string>
+    <string name="merge_notes_summary">Sticky-note icons; the comment text itself is dropped</string>
+    <string name="merge_forms">Form fields</string>
+    <string name="merge_forms_summary">When off, the form stays fillable</string>
+    <string name="merge_links">Remove links</string>
+    <string name="merge_links_summary">Make web and page links inactive</string>
+    <string name="suffix">File name suffix</string>
+    <string name="suffix_example">Example: %1$s</string>
+    <string name="example_name">contract</string>
+    <string name="theme">Theme</string>
+    <string name="language">Language</string>
+    <string name="language_summary">Follows the phone unless you choose another one</string>
+    <string name="privacy">Privacy policy</string>
+    <string name="privacy_summary">No data collected</string>
+    <string name="privacy_text">PDF Flattener collects no data.\n\nThe app has no internet access: it cannot send anything anywhere. Documents are processed on your device only, and only the latest one is kept, in the app\'s private storage, until you open the next.\n\nThe app keeps only your settings, on your device. It has no account, no ads, no analytics and no tracking.\n\nIt reads a document only when you choose it or share it to the app, and writes only where you save it.\n\nContact: %1$s</string>
+    <string name="licenses">Open-source licenses</string>
+    <string name="contact">Contact</string>
+    <string name="source_code">Source code</string>
+    <string name="version">Version</string>
+    <string name="close">Close</string>
+    <plurals name="result_merged">
+        <item quantity="one">%1$d element merged</item>
+        <item quantity="other">%1$d elements merged</item>
+    </plurals>
+    <plurals name="result_pages">
+        <item quantity="one">%1$d page</item>
+        <item quantity="other">%1$d pages</item>
+    </plurals>
+    <plurals name="count_handwriting">
+        <item quantity="one">%1$d handwriting or signature</item>
+        <item quantity="other">%1$d handwriting strokes and signatures</item>
+    </plurals>
+    <plurals name="count_text">
+        <item quantity="one">%1$d text box</item>
+        <item quantity="other">%1$d text boxes</item>
+    </plurals>
+    <plurals name="count_markup">
+        <item quantity="one">%1$d highlight or shape</item>
+        <item quantity="other">%1$d highlights and shapes</item>
+    </plurals>
+    <plurals name="count_notes">
+        <item quantity="one">%1$d comment</item>
+        <item quantity="other">%1$d comments</item>
+    </plurals>
+    <plurals name="count_forms">
+        <item quantity="one">%1$d form field</item>
+        <item quantity="other">%1$d form fields</item>
+    </plurals>
+    <plurals name="count_links">
+        <item quantity="one">%1$d link</item>
+        <item quantity="other">%1$d links</item>
+    </plurals>
+    <plurals name="count_other">
+        <item quantity="one">%1$d other</item>
+        <item quantity="other">%1$d others</item>
+    </plurals>
+    <string-array name="themes">
+        <item>System default</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+</resources>

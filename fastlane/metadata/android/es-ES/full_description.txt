@@ -1,0 +1,30 @@
+PDF Flattener integra de forma permanente firmas, escritura a mano, cuadros de texto y campos de formulario en las páginas de tus PDF, para que cualquiera que abra el documento los vea.
+
+¿POR QUÉ?
+Cuando firmas o anotas un PDF en el móvil, la mayoría de las apps añaden una capa flotante encima de la página en lugar de dibujar en ella. Muchos visores, vistas previas del correo y navegadores no muestran esas capas: tu firma desaparece para el destinatario y los campos rellenados pueden aparecer vacíos.
+
+QUÉ HACE
+PDF Flattener integra esas capas en la propia página:
+• Firmas manuscritas, trazos y sellos
+• Cuadros de texto escrito
+• Resaltados, subrayados y formas
+• Campos de formulario (o deja el formulario editable, como prefieras)
+
+El resultado sigue nítido: el dibujo sigue siendo vectorial, el texto se puede seleccionar y el archivo mantiene más o menos el mismo tamaño. Nada se convierte en una imagen borrosa.
+
+CÓMO FUNCIONA
+1. Elige un PDF o compártelo con PDF Flattener desde cualquier app.
+2. Comprueba el resultado: cambia entre el original y la versión aplanada.
+3. Guarda la copia (nombre_flattened.pdf, sufijo configurable) o compártela directamente.
+
+PRIVADO DESDE EL DISEÑO
+• 100 % sin conexión: la app no tiene acceso a internet
+• Sin cuenta, sin anuncios, sin rastreo
+• Tus documentos nunca salen de tu teléfono
+
+ADEMÁS
+• PDF protegidos con contraseña
+• Elige qué integrar y el sufijo del nombre de archivo
+• Temas claro y oscuro
+• Español, inglés, francés, alemán, italiano, portugués y neerlandés
+• Código abierto (licencia MIT)

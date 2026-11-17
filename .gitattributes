@@ -1,0 +1,5 @@
+# LF everywhere (gradlew must stay a valid Unix script), whatever core.autocrlf says
+* text=auto eol=lf
+*.bat text eol=crlf
+*.jar binary
+*.png binary

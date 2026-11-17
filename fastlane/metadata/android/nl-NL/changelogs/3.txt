@@ -1,0 +1,1 @@
+Eerste versie: voegt handtekeningen, handschrift, tekstvakken en formuliervelden offline samen met de pagina's. Vergelijk origineel en platgeslagen, kies wat je samenvoegt, open pdf's met wachtwoord. Licht en donker thema, 7 talen.
